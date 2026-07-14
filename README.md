@@ -2,7 +2,7 @@
 
 Windows BCD（启动配置数据）图形化管理工具，以可视化的方式替代繁琐的 bcdedit 命令行操作。
 
-下载链接 `https://github.com/20Zpan/panbcdedit/releases` 
+[下载链接https://github.com/20Zpan/panbcdedit/releases](https://github.com/20Zpan/panbcdedit/releases)
 
 > 本工具主要面向 **UEFI + GPT** 环境设计。
 > 传统 BIOS + MBR 分区下基础功能可用，但部分特性（如加载外部 .efi 引导文件）会因缺少 EFI 系统分区而受限。
