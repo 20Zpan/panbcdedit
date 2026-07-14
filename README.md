@@ -52,7 +52,8 @@ Windows BCD（启动配置数据）图形化管理工具，以可视化的方式
 这种方式绕过了 Windows Boot Manager 的签名限制，首次创建时会自动完成 efiloader.efi 的部署，后续可直接使用。
 
 > **架构说明**：内置的 efiloader.efi 仅支持 **amd64（x86_64）** 架构的 CPU。
-> 如果你的设备是 ia32 或 arm64 等其他架构，可前往 `http://xxxxxxxxx` 开源项目下载对应架构的 efiloader.efi 自行替换。
+> 如果你的设备是 ia32 或 arm64 等其他架构，可前往 `https://github.com/a1ive/efiloader/releases/tag/v0.1` 开源项目下载对应架构的 efiloader.efi 自行替换。
+> 这里感谢大佬的efiloader项目帮助我在bcd中启动外部.efi文件。
 
 ## 免责声明
 
